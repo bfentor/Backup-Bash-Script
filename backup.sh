@@ -3,7 +3,7 @@
 # Made by Balazs Fentor
 # Simple backup script that saves /home/USER to a compressed file
 
-size=$(sudo du -sh ${backDir}backup$date.tgz)
+size=$(sudo du -sh ${backDir}backup$date.zip)
 dir=/Users/$USER
 backDir=/Users/
 #backDir=/Users/
